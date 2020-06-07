@@ -10,6 +10,7 @@ body{
   padding:0;
   word-wrap:break-word !important;
   font-family:font-family: 'Montserrat', sans-serif;
+
 }
 
 a{
@@ -20,18 +21,10 @@ a{
  display:none;
 }
 
-#logo{
-	display: block;
-	padding:0 30px;
-	float: left;
-	font-size: 20px;
-	line-height: 60px;
-}
-
 #main-toggle{
 	cursor:pointer;
 	float: right;
-	padding:60px 40px;
+	padding:28px 28px;
 	position: relative;
 	user-select:none;
 }
@@ -81,7 +74,7 @@ nav ul{
 
  nav a{
  	display:block;
- 	padding: 0 60px;
+ 	padding: 0 20px;
  	color:#5A535A;
  	font-size: :20px;
  	line-height:60px;
@@ -121,7 +114,7 @@ nav ul li:hover>ul{
  	content:"";
  }
 
- @media all and (max-width: 1080px){
+ @media all and (max-width: 768px){
 
  	nav{
  		margin:0;
@@ -139,7 +132,7 @@ nav ul li:hover>ul{
  		display: block;
  		background-color:#F5E1A4;
  		padding:0 20px;
- 		font-size:40px;
+ 		font-size:20px;
  		line-height: 60px;
  		text-decoration: none;
  		border: none;
@@ -187,3 +180,33 @@ nav ul li:hover>ul{
 
 
  }
+
+.name{
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-shadow: -1px 0 #FFAD00, 0 1px #FFAD00, 1px 0 #FFAD00, 0 -1px #FFAD00;
+    font-family:'Libre Baskerville', serif; color: #5A535A;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: center;
+    z-index: -1;
+}
+
+/*hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+*/
+/*.photo{
+	position: absolute;
+	top: 80%
+	left: 60%;
+}
+*/
