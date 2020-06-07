@@ -121,7 +121,7 @@ nav ul li:hover>ul{
  	content:"";
  }
 
- @media all and (max-width: 900px){
+ @media all and (max-width: 1080px){
 
  	nav{
  		margin:0;
