@@ -5,12 +5,41 @@
 <head>
   <link rel="stylesheet" href="menu.css">
    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+      <meta name="viewport" content="top=device-height, initial-scale=1.0"> 
+   <style>
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+}
+div.gallery {
+  border: 1px solid #ccc;
+  margin:20px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 80%;
+  height: auto;
+}
+
+div.desc {
+  padding: 5px;
+  text-align: center;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
 </head>
 <body>
-<!--   <div class="photo">
-     <img src="pic.jpg" width="300" height="200">
-  </div>
-   -->
   <nav>
     <label for="drop" class="toggle" id='main-toggle'><span class="nav-icon"></span></label>
     <input type="checkbox" id="drop">
@@ -32,12 +61,31 @@
     </ul>
   </nav>
 
-</body>
-<header>
   <div class="name">
     <h1>Laze Sticks</h1>
-<!--  x <hr style="width:50%">  -->
+ </div>
+    <a target="_blank" href="pic.jpg">
+      <img src="pic.jpg" alt="flower" width=80%>
+    </a>
+    <div class="desc">Flowers - Photography Colourgraph</div>
+
+
+
+
+
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="img_forest.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
   </div>
-</header>
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+  <p>Description of artist will go here etc.</p>
+  
+</div>
+</body>
+
 
 </html>
