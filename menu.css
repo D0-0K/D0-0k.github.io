@@ -183,7 +183,7 @@ nav ul li:hover>ul{
 
 .name{
 	position: absolute;
-	top: 5%;
+	top: 7.5%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	text-shadow: -1px 0 #FFAD00, 0 1px #FFAD00, 1px 0 #FFAD00, 0 -1px #FFAD00;
