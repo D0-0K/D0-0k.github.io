@@ -23,10 +23,9 @@ a{
 
 #main-toggle{
 	cursor:pointer;
-	float: right;
 	padding:28px 28px;
-	position: relative;
 	user-select:none;
+	z-index: 10;
 }
 
 .nav-icon{
@@ -35,6 +34,7 @@ a{
 	height:2.5px;
 	width: 18px;
 	position: relative;
+	float: right;
 }
 
 .nav-icon:before,
@@ -70,6 +70,7 @@ nav ul{
  	margin:0;
  	float: left;
  	background-color:#F5E1A4; 
+ 	box-shadow: 2px 2px 5px lightgrey; 
  }
 
  nav a{
@@ -136,6 +137,7 @@ nav ul li:hover>ul{
  		line-height: 60px;
  		text-decoration: none;
  		border: none;
+ 		box-shadow: 2px 2px 5px lightgrey;
  	}
 
  	.toggle:hover{
@@ -149,6 +151,7 @@ nav ul li:hover>ul{
  	nav ul li{
  		display: block;
  		width:100%;
+
  	}
 
  	nav ul ul .toggle,
@@ -175,14 +178,15 @@ nav ul li:hover>ul{
     nav ul ul li{
     	display: block;
     	width:100%;
+    	 box-shadow: 2px 2px 5px lightgrey;
     }
 
 
 
  }
 
-.name{
-	position: absolute;
+/*.name{
+*	position: absolute;
 	top: 7.5%;
 	left: 50%;
 	transform: translate(-50%,-50%);
@@ -192,7 +196,7 @@ nav ul li:hover>ul{
     line-height: 80px;
     text-align: center;
     z-index: -1;
-}
+}*/
 
 /*hr {
   display: block;
