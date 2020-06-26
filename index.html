@@ -11,7 +11,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top:20px;
+  margin-top:26px;
 }
 div.gallery {
   border: 1px solid #ccc;
@@ -28,8 +28,15 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 5px;
-  text-align: center;
+  font-family:'Montserrat', sans-serif;
+  color: #463f3a;
+  font-size: 16px;
+  margin-top:5px;
+  text-align: left;
+  line-height: 20px;
+  width: 84%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .clearfix:after {
@@ -39,21 +46,62 @@ div.desc {
 }
 h1{
   text-align: center;
-  text-shadow: -1px 0 #FFAD00, 0 1px #FFAD00, 1px 0 #FFAD00, 0 -1px #FFAD00;
-    font-family:'Libre Baskerville', serif; color: #5A535A;
-    font-size: 60px;
- line-height:1;
+    font-family:'Playfair Display SC', serif; color: Black;
+    font-size: 50px;
+    margin-top: 16px;
+    margin-bottom: 24px;
 }
-hr{
- color:#8a8a8a;
+hr.header {
+ color:#BCB8B1;
   display: block;
-  width:90%;
-  border-width: 2px;
+  width:88%;
+  border-width: 1px;
   border-style: solid;
+}
+hr.under {
+  color:#BCB8B1;
+  display: block;
+  width:88%;
+  border-width: 1px;
+  border-style: solid;
+  margin-top:1px; 
+  margin-bottom:0px;
+}
+hr.image {
+  color:#BCB8B1;
+  display: block;
+  width:88%;
+  border-width: 1px;
+  border-style: solid;
+  margin-top:-36px; 
+  margin-bottom:0px;
+}
+img.Artist {
+  margin-top: 32px
+}
+p.desc {
+  color:#000000;
+  width:78%;
+  font-family:'Montserrat', sans-serif;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 20px;
+  margin-top:40px;
+}
+hr.bottom {
+  color:#BCB8B1;
+  display: block;
+  width:88%;
+  border-width: 1px;
+  border-style: solid;
+  margin-top:5px; 
+  margin-bottom:10px;
 }
 </style>
 </head>
 <body>
+  
   <nav>
     <label for="drop" class="toggle" id='main-toggle'><span class="nav-icon"></span></label>
     <input type="checkbox" id="drop">
@@ -75,30 +123,31 @@ hr{
     </ul>
   </nav>
 
-  <h1>Laze Sticks</h1>
-  <hr>
+  <h1>Evan Kenny</h1>
+  <hr class="header">
 
     <a target="_blank" href="https://user-images.githubusercontent.com/66568057/84195650-d7c43d80-aa96-11ea-8c12-5622c1e3e150.JPG">
-      <img src="https://user-images.githubusercontent.com/66568057/84195650-d7c43d80-aa96-11ea-8c12-5622c1e3e150.JPG" alt="flower" width=80%>
+      <img src="https://user-images.githubusercontent.com/66568057/84195650-d7c43d80-aa96-11ea-8c12-5622c1e3e150.JPG" alt="flower" width=84%>
     </a>
-    <div class="desc">Flowers - Photography Colourgraph.</div>
+    <div class="desc">Flower Buds - Colorgraph Photo.</div>
 
 
-<hr>
+<hr class="under">
 
 
  
     <a target="_blank" href="https://user-images.githubusercontent.com/66568057/84307432-cb9eb580-ab54-11ea-90a7-4ba5eddc499a.jpg">
-      <img src="https://user-images.githubusercontent.com/66568057/84307432-cb9eb580-ab54-11ea-90a7-4ba5eddc499a.jpg" alt="Forest" width=80%>
+      <img src="https://user-images.githubusercontent.com/66568057/84307432-cb9eb580-ab54-11ea-90a7-4ba5eddc499a.jpg" alt="Forest" width=84%>
     </a>
-    <div class="desc"White Flowers - Photography Colourgraph.</div>
- <hr>
+    <div class="desc">White Blooms - Colorgraph Photo.</div>
+ <hr class="under">
 <div class="clearfix"></div>
 
-<div style="padding:6px;">
-  <p>Laze sticks was an artist. Maybe. Who knows.</p>
+<img class="Artist" src="https://user-images.githubusercontent.com/66568057/85881298-4b738380-b7d5-11ea-891b-9459d66384d7.jpg" alt="Artist" width=33%>
+<hr class="image">
+  <p class="desc"> Evan is a photographer who loves flowers n stuff. Especially colourful ones, I mean all his stuff is literaly   flowers. He enjoys taking photos.</p>
   
-</div>
+<hr class="bottom">
 </body>
 
 
