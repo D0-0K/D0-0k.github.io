@@ -10,8 +10,7 @@ body{
   margin:0;
   padding:0;
   word-wrap:break-word !important;
-  font-family: 'Rubik';
-
+  font-family: 'Rubik', sans-serif;
 }
 
 a{
@@ -141,8 +140,7 @@ nav ul li:hover>ul{
  		line-height: 50px;
  		text-decoration: none;
  		border: none;
- 		box-shadow: 0px 2px 5px lightgrey
-	
+ 		box-shadow: 0px 2px 5px lightgrey;
  	}
 
  	.toggle:hover{
