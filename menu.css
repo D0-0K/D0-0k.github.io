@@ -10,7 +10,7 @@ body{
   margin:0;
   padding:0;
   word-wrap:break-word !important;
-  font-family:font-family: 'Montserrat', sans-serif;
+  font-family:font-family: 'Rubik';
 
 }
 
@@ -86,7 +86,6 @@ nav ul{
  	font-size: :20px;
  	line-height:50px;
  	text-decoration:none; 
-	 font-family:'Playfair Display SC', serif;
  }
 
  nav ul li:hover{
