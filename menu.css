@@ -10,7 +10,7 @@ body{
   margin:0;
   padding:0;
   word-wrap:break-word !important;
-  font-family:font-family: 'Montserrat', sans-serif;
+  font-family: 'Bitter', sans-serif;
 
 }
 
@@ -141,7 +141,7 @@ nav ul li:hover>ul{
  		line-height: 50px;
  		text-decoration: none;
  		border: none;
- 		box-shadow: 0px 2px 5px lightgrey
+ 		box-shadow: 0px 2px 5px lightgrey;
  	}
 
  	.toggle:hover{
@@ -203,33 +203,3 @@ nav ul li:hover>ul{
     }
 
  }
-
-/*.name{
-*	position: absolute;
-	top: 7.5%;
-	left: 50%;
-	transform: translate(-50%,-50%);
-	text-shadow: -1px 0 #FFAD00, 0 1px #FFAD00, 1px 0 #FFAD00, 0 -1px #FFAD00;
-    font-family:'Libre Baskerville', serif; color: #5A535A;
-    font-size: 40px;
-    line-height: 80px;
-    text-align: center;
-    z-index: -1;
-}*/
-
-/*hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: inset;
-  border-width: 1px;
-}
-*/
-/*.photo{
-	position: absolute;
-	top: 80%
-	left: 60%;
-}
-*/
