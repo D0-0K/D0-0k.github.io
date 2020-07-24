@@ -125,6 +125,7 @@ hr.bottom {
 }
 div.backbutton {
 	  text-decoration: none;
+	float:left;
   border-radius: 10px;
   background: #E54B4B;
    margin-top: 25px;
