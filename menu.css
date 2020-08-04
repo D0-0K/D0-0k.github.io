@@ -17,7 +17,7 @@ body{
 h1.yoke{
       margin-bottom: 16px;
       margin-top: 16px;
-      margin-left: 16px;
+      margin-left: 50px;
       padding-bottom:0;
       padding-top:0;
       height:25px;
@@ -27,7 +27,17 @@ h1.yoke{
       position: absolute;
       z-index:5;
     }
-
+img.svg{
+  width:30px;
+  height:auto;
+  margin:0px;
+  top:9.5px;
+  left:13.5px;
+  position: absolute;
+  z-index:1;
+  fill-opacity:0;
+  box-shadow: none;
+}
 img {
   display: block;
   margin-left: auto;
