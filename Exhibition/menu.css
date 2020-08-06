@@ -17,7 +17,7 @@ body{
 
 h1.yoke{
       margin-bottom: 16px;
-      margin-top: 16px;
+      margin-top: 13px;
       margin-left: 16px;
       padding-bottom:0;
       padding-top:0;
@@ -63,7 +63,7 @@ div.desc {
   margin-right: auto;
 }
 
-.clearfix:after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
@@ -109,16 +109,16 @@ img.Artist {
 }
 p.desc {
   color:#000000;
-  width:78%;
+  width:85%;
   max-width:650px;
   font-family:'Montserrat', sans-serif;
   font-size: 16px;
   margin-left: auto;
   margin-right: auto;
   line-height: 20px;
-  margin-top:40px;
+  margin-top:20px;
   text-align: justify;
-  text-indent: 5px;
+  text-indent: 10px;
 }
 hr.bottom {
   color:#BCB8B1;
@@ -166,13 +166,40 @@ div.backbutton {
   line-height: 20px;
   box-shadow: 0 1px 4px 0 lightgrey, 0 5px 10px 0 rgba(0, 0, 0, 0.19);
   }
-  p.credits{
-  	display: block;
-  	color: #E0AFA0;
-  	width: 100%;
-  	height: 30px;
-  	font-family:'Montserrat', sans-serif;
-    font-size: 16px;
+    div.startbutton{
+    height:30px;
+    border-radius:15px;
+    font-size:20px;
+    line-height:1.5;
+    text-decoration: none;
+    float: right;
+    background: #E54B4B;
+   margin-top: 75px;
+   margin-bottom: 10px;
+   margin-right: 25px;
+   padding-right: 10px; 
+    width: 200px; 
+    text-align: right;
+    color: #F3F3EE;
+    font-family: 'Rubik'; color:white;
+    box-shadow: 0 1px 4px 0 lightgrey, 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+
+   p.credits{
+    display: block;
+    background-color:#E0AFA0;
+    width:100%;
+    height:25px;
+    font-family:'Montserrat', sans-serif;
+    font-weight:600;
+    color:#F4F3EE;
+    font-size:18px;
+    margin:0px;
+    text-align:center;
+    line-height:25px;
+    text-transform: capitalize;
+    position: absolute;
+box-shadow: 0 1px 4px 0 grey, 0 5px 10px 0 rgba(0, 0, 0, 0.19);
   }
 
 .clearfix::after {
@@ -193,6 +220,7 @@ a{
 	padding:28px 28px;
 	user-select:none;
 	z-index: 10;
+ box-shadow: 0px 2px 5px lightgrey;
 }
 
 
@@ -269,7 +297,7 @@ nav ul li ul li:hover{
  }
 
  nav ul ul li{
- 	width:170px;
+ 	width:250px;
  	float: none;
  	display: list-item;
  	position: relative;
@@ -287,8 +315,30 @@ nav ul li:hover>ul{
  	content:"";
  }
 
+ /*Mobile Only Section Below*/
  @media all and (max-width: 768px){
+  div.startbutton{
+    height:30px;
+    border-radius:15px;
+    font-size:20px;
+    line-height:1.5;
+    text-decoration: none;
+    float: right;
+    background: #E54B4B;
+   margin-top: 70px;
+   margin-bottom: 35px;
+   margin-right: 25px;
+   padding-right: 10px; 
+    width: 200px; 
+    text-align: right;
+    color: #F3F3EE;
+    font-family: 'Rubik'; color:white;
+    box-shadow: 0 1px 4px 0 lightgrey, 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+  }
 
+  h1.yoke{
+    margin-top:16px;
+  }
  	nav{
  		margin:0;
  	}
@@ -305,7 +355,7 @@ nav ul li:hover>ul{
  		display: block;
  		background-color:#E0AFA0;
  		padding:0 20px;
- 		font-size:20px;
+ 		font-size:22px;
  		line-height: 50px;
  		text-decoration: none;
  		border: none;
